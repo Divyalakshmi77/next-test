@@ -1,4 +1,7 @@
+import Image from "next/image";
 import React from "react";
+import next2 from "public/images/next2.jpg";
+import contact from "public/images/contact.jpg";
 
 const About = () => {
   return (
@@ -69,7 +72,7 @@ const About = () => {
         </div>
         <div className="">
           <div className="pt-5 pb-5">
-            <img src="images/contact.jpg" alt="about" />
+            <Image src={contact} alt="about" />
           </div>
           <p className="text-white font-bold uppercase font-medium">
             Lorem ipsum dolor sit
@@ -174,7 +177,7 @@ const About = () => {
         </div>
         <div></div>
         <div></div>
-        <div><img src="images/next2.jpg" alt="about" className="h-350 w-350" /></div>
+        <div><Image src={next2} alt="about" className="h-350 w-350" /></div>
 
         <div className="">
           <p className="text-white font-bold uppercase font-medium">

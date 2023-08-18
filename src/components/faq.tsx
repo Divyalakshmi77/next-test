@@ -39,7 +39,7 @@ const Faq = () => {
       </div>
       <div className="accordion text-white">
         {accItem.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
+          <Accordion key={title} title={title} content={content} />
         ))}
       </div>
     </div>

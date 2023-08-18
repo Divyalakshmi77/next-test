@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+import next3 from "public/images/next3.jpg";
 
 const Leaders = () => {
   return (
@@ -73,7 +75,7 @@ const Leaders = () => {
         <div></div>
         <div>
           <div className="">
-            <img src="images/next3.jpg" alt="about" className="h-350 w-350" />
+            <Image src={next3} alt="about" className="h-350 w-350" />
           </div>
         </div>
         <div className="">
